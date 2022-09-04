@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-light"style="background-color: #d6d6d6;">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2 mx-auto ms-5" href="#" >Winvestate</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active ms-5" aria-current="page" href="#">Tüm ilanlar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tüm teklifler</a>
+          </li>
+        </ul>
+        <li class="nav-item dropdown justify-content-end list-group-item me-5">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            İsmail Çelikel
+          </a>
+          <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Çıkış</a></li>
+          </ul>
+  
+        </li>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg navbar-light h-75" style="background-color: red;">
+    <div class="container-fluid">
+    <a class="navbar-brand fs-2 ms-5 " href="#" style="font-family: 'Roboto', sans-serif; color: white;">AKBANK</a>
+    <a class="nav-link active me-5" aria-current="page" href="#"  style="font-family: 'Roboto', sans-serif; color: white; text-align: right;">Tüm Teklifler</a>
+  </nav>
+</div>
+  
+  <!-- Head -->
+  
+  <div class="container-fluid">
+    <div class="row bg-light">
+      
+      <div class="col ms-5 ">
+        <ul>
+          <li class=" dropdown  mt-5 me-5 fw-bold ">ISB-009 KAYSERİ AKKIŞLA <i class="fa-solid fa-house-user fa-3x" style="color: red; margin-left: 10rem;"></i></li> 
+          <p class="text-secondary">Ekspertiz Bedeli 300.000 TL</p>
+          <p class="text-secondary">Başlangıç Bedeli 310.000 TL</p>
+          <p class="text-secondary">En yüksek Teklif <b class="text-dark">330.000 TL</b> </p>
+          <p class="text-secondary">Son Teklif Tarihi <b class="text-dark">17.03.2022</b><br><b class="text-dark" style="padding-left: 9.8rem;" >18:00</b></p>
+    
+        </ul>
+  
+      </div>
+  
+      <div class="col me-5">
+   
+          <table class="table mt-5 border border-3 shadow " style="background-color: white;" >
+            <thead> 
+              <tr>
+                <th scope="col">Gelen Teklifler</th>
+                <th scope="col">Tarih</th>
+                <th scope="col">Durum</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1. Serkan Yılmaz</th>
+                <td>16.03.2022</td>
+                <td><div class="btn-group"> Güncel Teklif
+                  <button class="btn ms-1 btn-sm dropdown-toggle text-danger" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    330.000TL
+                  </button></td>
+              </tr>
+              <tr>
+                <th scope="row">2. Kazım Emre Akarsu</th>
+                <td>16.03.2022</td>
+                <td><div class="btn-group"> Güncel Teklif
+                  <button class="btn ms-1 btn-sm dropdown-toggle text-danger" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    330.000TL
+                  </button></td>
+              </tr>
+              <tr>
+                <th scope="row">3. Sevde Sultan Yalçın</th>
+                <td>16.03.2022</td>
+                <td><div class="btn-group"> Güncel Teklif
+                  <button class="btn ms-1 btn-sm dropdown-toggle text-danger" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    330.000TL
+                  </button></td>
+              </tr>
+            </tbody>
+          </table>
+          
+      </div>
+    </div>
+
+    <div class="row bg-light">
+      <div class="col ms-5 ">
+        <ul>
+          <li class=" dropdown  mt-5 me-5 fw-bold ">ISB-394 Manisa Turgutlu <i class="fa-solid fa-house-user fa-3x" style="color: red; margin-left: 11rem;"></i></li>
+          <p class="text-secondary">Ekspertiz Bedeli 150.000 TL</p>
+          <p class="text-secondary">Başlangıç Bedeli 150.000 TL</p>
+          <p class="text-secondary">En yüksek Teklif <b class="text-dark">155.000 TL</b> </p>
+          <p class="text-secondary">Son Teklif Tarihi <b class="text-danger">25.03.2022</b><br><b class="text-danger" style="padding-left: 9.8rem;" >18:00</b></p>
+        </ul>
+      </div>
+      
+      <div class="col me-5 ">
+        <table class="table mt-5 border border-3 shadow" style="background-color: white;">
+          <thead>
+            <tr>
+              <th scope="col">Gelen Teklifler</th>
+              <th scope="col">Tarih</th>
+              <th scope="col">Durum</th>
+            </tr>
+          </thead>
+          <tbody>
+           
+            <tr>
+              <th scope="row">1. Kazım Emre Akarsu</th>
+              <td>16.03.2022</td>
+              <td><div class="btn-group"> Güncel Teklif
+                <button class="btn ms-1 btn-sm dropdown-toggle text-danger" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tapu işlemi yapılacak
+                </button></td>
+            </tr>
+            
+          </tbody>
+        </table>
+    </div>
+    <div class="row bg-light">
+      <div class="col ms-5 ">
+        <ul>
+          <li class=" dropdown  mt-5 me-5 fw-bold ">ISB-394 Manisa Turgutlu <i class="fa-solid fa-house-user fa-3x" style="color: red; margin-left: 11rem;"></i>
+          </li>
+          <p class="text-secondary">Ekspertiz Bedeli 2.000 TL</p>
+          <p class="text-secondary">Başlangıç Bedeli 2.000 TL</p>
+          <p class="text-secondary">Son Teklif Tarihi <b class="text-dark">26.03.2022</b><br><b class="text-dark" style="padding-left: 9.8rem;" >18:00</b><br><b class="text-dark" style="padding-left: 8.5rem;" >00:00:00</b> </p>
+          <p class="text-danger fw-bold"> Teklif süresi sona erdi. (4 Gün )</p>
+          
+        </ul>
+      </div>
+      <div class="col me-5 ">
+        <table class="table mt-5 border border-3 shadow" style="background-color: white;" >
+          <thead>
+            <tr>
+              <th scope="col">Gelen Teklifler</th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+
+            </tr>
+          </thead>
+          <tbody>
+           
+            <tr>
+              <th scope="row">1. Kazım Emre Akarsu </th>
+              <td>Başvuru Tarihi : <b>16.03.2022</b><br><b class="text-dark"></b>   </td>
+             <td> <button class="btn ms-1 btn-sm dropdown-toggle text-danger" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+               Teklif Verilmedi
+              </button></td>
+              <tr>
+                <td></td>
+                <td>Teklif Miktarı: <b>-</b> </td> 
+              </tr>
+              <tr>
+                <td></td>
+                <td>E-mail:  <b>akbank..@gmail.com</b> </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Telefon:  <b>+90 0505 123 4758</b> </td>
+                <td> <button type="button" class="btn btn-danger">Tüm Detayları Görüntüle</button></td>
+              </tr>
+            </tr>
+           
+            
+          </tbody>
+        </table>
+    </div>
+    </div>
+  </div>
+ 
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
